@@ -3,11 +3,11 @@
 ## 주제 : Typescript 기반 서버 프레임워크인 Nestjs 소개
 
 ### 목차
- - [주제를 선정한 이유](#주제를 선정한 이유)
- - [선행 지식](#선행 지식)
-   - [OOP란?](#OOP란?)
+ - [주제를 선정한 이유](#선정배경)
+ - [선행 지식](#선행지식)
+   - [OOP란?](#OOP란)
    - [Typescript](#Typescript)
-   - [Dependency Injection](#Dependency Injection)
+   - [Dependency Injection](#DI)
    - [SOLID](#SOLID)
  - [NestJS 소개](#NestJS란)
    - [NestJS의 장점](#장점)
@@ -16,15 +16,15 @@
    - [프로젝트 현황](#현황)
  - [프로젝트를 마무리하며](#마무리)
 
-# 주제를 선정한 이유
+# 선정배경
 
 > 주제를 선정하게 된 가장 큰 이유는 단순히 서버 프레임워크를 사용해서 기능을 구현하는 것이 아닌  
 > 재사용성 높은 코드, 가독성이 좋은 코드, 유지보수가 용이한 코드를 작성하는 것이  
 > 얼마나 중요한지 설명하고 싶어서 주제를 선정하게 되었다.
 
-# 선행 지식
+# 선행지식
 
-## OOP란?
+## OOP란
 
 > 실제 사물을 코드에서 객체 형태로 사용하는 프로그래밍 방식
 
@@ -80,7 +80,7 @@ sum(10, 20); // 30
 sum('10', '20'); // error TS2345: Argument of type '"10"' is not assignable to parameter of type 'number'.
 ```
 
-## Dependency Injection
+## DI
 
 의존관계 주입(Dependency Injection, 이하 DI)을 설명하기 전에 의존관계란, "A가 B를 의존한다." 라는 의미에서 출발한다.  
 
